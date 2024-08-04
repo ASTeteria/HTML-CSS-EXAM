@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-1728 {
+    width: 1728px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/*-- Header and first block--*/
+
+.top {
+    height: 856px;
+    background: #F7F8FD;;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F7F8FD;
+    padding: 30px 224px 0 224px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 0 40px 0 516px;
+}
+nav ul a {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+header button {
+    width: 120px;
+    height: 49px;
+    border-radius: 5px;
+    background: #03045E;
+    border: none;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fully-managed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 121px 224px 200px 224px;
+    background: #F7F8FD;
+}
+.fully-managed h1 {
+    width: 556px;
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+}
+.fully-managed p {
+    width: 556px;
+    color: rgba(3, 4, 94, 0.50);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 36px 0 36px 0;
+}
+.fully-managed button {
+    width: 188px;
+    height: 61px;
+    border: none;
+    border-radius: 5px;
+    background: #0098FF;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.fully-managed img {
+    width: 624px;
+    height: 456px;
+}
+
+/*----Third section SEARCH----*/
+
+.search-domain {
+    height: 434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 69px;
+}
+.input-search h3 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 36px;
+}
+.search-form {
+    display: flex;
+}
+.search-form input[type="search"] {
+    width: 466px;
+    height: 60px;
+    border-radius: 5px;
+    background: #F6F6F6;
+}
+.search-form input[type="search"]::placeholder {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    opacity: 0.5;
+}
+.search button {
+    width: 159px;
+    height: 60px;
+    border-radius: 0 5px 5px 0;
+    background: #0098FF;
+    margin-left: -8px;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.search .vertical {
+    width: 1px;
+    height: 134px;
+    background: #03045E;
+}
+.search .cost-domain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 115px;
+    row-gap: 32px;
+}
+.cost-domain h4 {
+    color: #0098FF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cost-domain p {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.3;
+}
+
+/*----OUR SERVICE-----*/
+
+.our-services {
+    width: 100%;
+    height: 996px;
+    background: snow;
+}
+.all-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 224px 150px 224px;
+}
+.our-services h2 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 80px;
+    padding: 60px;
+}
+.services div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 407px;
+    height: 225px;
+}
+.services img {
+    background-image: url("img/background/Vector.png");
+    padding: 20px;
+}
+.services h5 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+.services p {
+    width: 407px;
+    height: 72px;
+    color: #03045E;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    opacity: 0.5;
+}
+
+/*---OUR CLIENTS---*/
+
+.our-clients {
+    width: 100%;
+    height: 717px;
+}
+.word-our-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 224px 150px 224px;
+}
+.clients {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+}
+.our-clients h2 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.james-harle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 407px;
+    height: 263px;
+    background: #F6F6F6;
+    margin-top: 60px;
+}
+.james-harle p {
+    color: #03045E;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+.james-harle h5 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+.james-harle p:nth-of-type(2) {
+    padding-top: 8px;
+}
+
+img {
+    padding-top: 40px;
+}
+
+/*---COUNTER---*/
+
+.counter {
+    height: 315px;
+    background: #0098FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.counter-hosting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+.counter-hosting h2 {
+    color: #FFF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.counter-hosting p {
+    width: 297px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*----BUY NOW----*/
+
+.buy-now {
+    height: 999px;
+    padding: 150px 224px 150px 224px;
+}
+.buy-now h2 {
+    padding: 0 0 60px 0;
+    color: #03045E;
+    text-align: center;
+    font-family: Ubuntu, serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.buy-now h6 {
+    margin-bottom: 16px;
+    color: #0098FF;
+    text-align: center;
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.buy-now h3 {
+    margin-bottom: 50px;
+    color: #03045E;
+    text-align: center;
+    font-family: Ubuntu, serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.buy-now p {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 318px;
+    height: 41px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #F6F6F6;
+    opacity: 0.5;
+}
+.plan span {
+    color: #03045E;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.buy-now button {
+    margin-top: 60px;
+    border: none;
+    display: inline-flex;
+    padding: 11px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #03045E;
+}
+.buy-now a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.second-box {
+    padding: 38px 0 50px 0;
+    width: 318px;
+    height: 593px;
+    flex-shrink: 0;
+    background: #0098FF;
+}
+.second-box h6 {
+    color: white;
+}
+.second-box h3 {
+    color: white;
+}
+.second-box p {
+    color: #FFF;
+    opacity: 1;
+}
+.second-box span {
+    color: #FFF;
+    line-height: normal;
+}
+
+/*----BOTTOM BOX----*/
+
+.shield {
+    height: 472px;
+    background: #F6F6F6;
+}
+.bottom-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 103px;
+    padding: 100px 225px 100px 225px;
+}
+.bottom-shield, .quickl-links, .services-bottom, .contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.bottom-box h6 {
+    color: #000;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bottom-shield p {
+    width: 297px;
+    padding-top: 24px;
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+.quickl-links p, .services-bottom p, .contact-us p{
+    width: 187px;
+    color: #03045E;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 14px;
+    opacity: 0.5;
+}
+.contact-us p {
+    width: 297.418px;
+}
+.follow-us {
+    padding-top: 30px;
+}
+.social {
+    padding-top: 24px;
+}
+.social a {
+    text-decoration: none;
+}
+
+/*----FOOTER---*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 224px 40px 224px;
+}
+footer p {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
